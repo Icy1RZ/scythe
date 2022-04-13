@@ -672,3 +672,12 @@ end
 srv.RenderStepped:Wait()
 end
 end)()
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Script is made by Script Verse";
+ Text = "discord.gg/JPTv7JkG8g";
+ Icon = "";
+ Duration = 5;
+})
+
+--tbh.. if u managed to skid this.. well done!
