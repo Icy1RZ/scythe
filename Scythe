@@ -256,6 +256,7 @@ hatset('Kate Hair','Right Arm',CFrame.new(),reanim['Kate Hair'].Handle.Accessory
 hatset('Pal Hair','Right Arm',CFrame.new(),reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),1.3+0*math.cos(sine/13),4+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
 hatset('BrownCharmerHair','Right Arm',CFrame.new(),reanim['BrownCharmerHair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.7+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(-82+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
 hatset('Pink Hair','Right Arm',CFrame.new(),reanim['Pink Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.9+0*math.cos(sine/13),-1.3+0*math.cos(sine/13))*ANGLES(RAD(-73+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
+hatset('Hat1','Right Arm',CFrame.new(),reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.9+0*math.cos(sine/13),-1.3+0*math.cos(sine/13))*ANGLES(RAD(-73+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
 hatset('LavanderHair','Right Arm',CFrame.new(),reanim['LavanderHair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),1.3+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
 NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -268,6 +269,7 @@ reanim['Kate Hair'].Handle.AccessoryWeld.C0 = reanim['Kate Hair'].Handle.Accesso
 reanim['Pal Hair'].Handle.AccessoryWeld.C0 = reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),1.3+0*math.cos(sine/13),4+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 reanim['BrownCharmerHair'].Handle.AccessoryWeld.C0 = reanim['BrownCharmerHair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.7+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(-82+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 reanim['Pink Hair'].Handle.AccessoryWeld.C0 = reanim['Pink Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.9+0*math.cos(sine/13),-1.3+0*math.cos(sine/13))*ANGLES(RAD(-73+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
+reanim['Hat1'].Handle.AccessoryWeld.C0 = reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),4.9+0*math.cos(sine/13),-3.5+0*math.cos(sine/13))*ANGLES(RAD(-73+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 reanim['LavanderHair'].Handle.AccessoryWeld.C0 = reanim['LavanderHair'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),1.3+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 elseif Root.Velocity.Magnitude < 200 then -- walk
 hatset('Robloxclassicred','Right Arm',CFrame.new(),reanim['Robloxclassicred'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),1.3+0*math.cos(sine/13),0.3+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),true)
@@ -679,5 +681,3 @@ game.StarterGui:SetCore("SendNotification",  {
  Icon = "";
  Duration = 5;
 })
-
---tbh.. if u managed to skid this.. well done!
