@@ -218,6 +218,7 @@ Mode='1'
 end
 end)
 
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Script was made by Script Verse :flushed:", "All")
 
 
 
