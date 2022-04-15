@@ -218,8 +218,15 @@ Mode='1'
 end
 end)
 
+local xsoundid = "790888261"
+local xsound = Instance.new("Sound",game.Workspace)
+if sounds == true then
+xsound.SoundId = "rbxassetid://"..xsoundid 
+end
+
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Script was made by Script Verse :flushed:", "All")
 
+xsound:Play()
 
 
 coroutine.wrap(function()
